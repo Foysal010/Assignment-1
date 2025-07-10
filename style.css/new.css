@@ -14,10 +14,14 @@
     color: #4E47FF;
 }
 
+.secondary-color{
+    color: #252432;
+}
+
 .btn-primary{
     background-color: #4E47FF;
     color: white;
-    border-radius: 5px;
+    border-radius: 10px;
     border: none;
     font-size: 16px;
     font-weight: bold;
@@ -25,6 +29,22 @@
 
 }
 
+body{
+    margin: 0p;
+}
+
+
+/* Header Style */
+
+.header{
+    background-image: url('../Assets/Hero-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover ;
+    
+    
+    
+    
+}
 
 
 /* Nav style */
@@ -43,4 +63,23 @@ nav{
 
 nav ul li{
     list-style: none;
+}
+
+/* banner */
+
+
+.banner{
+    
+    
+}
+
+.banner-content{
+    margin: 209px 260px 152px 260px;
+    text-align: center;
+    padding-bottom: 150px;
+}
+
+.banner-tile{
+    font-size: 65px;
+    font-weight: bold;
 }
