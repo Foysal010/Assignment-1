@@ -26,11 +26,19 @@
     font-size: 16px;
     font-weight: bold;
     padding: 12px 36px;
+    cursor: pointer;
 
 }
 
 body{
     margin: 0p;
+}
+
+/* Main style */
+
+main{
+    max-width: 1140px;
+    margin: 0px auto;
 }
 
 
@@ -82,4 +90,34 @@ nav ul li{
 .banner-tile{
     font-size: 65px;
     font-weight: bold;
+    margin-bottom: 37px;
+}
+
+
+/* Action Style */
+
+.action{
+    display: flex;
+    justify-content: space-around;
+    gap: 220px;
+    margin-top: 120px;
+}
+
+
+.action-content-title{
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+    margin-bottom: 23px;
+    
+}
+
+.action-content-title-des{
+    font-size: 24px;
+    color: rgba(37, 36, 50, 0.5); 
+}
+
+.action-pic{
+    width: 403px;
+    border-radius: 48px;
 }
