@@ -247,3 +247,88 @@ small{
     border-radius: 48px;
     margin-top: 20px;
 }
+
+/* form style */
+
+.form-sec{
+    display: flex;
+    gap: 100px;
+    margin: 62px 100px 23px 100px;
+   
+    
+}
+
+.section-column{
+    width: 50%;
+}
+
+.form-sec input[type="text"], textarea{
+        height: 32px;
+        border-radius: 10px;
+        display: block;
+        width: 55%;
+        padding: 20px 271px 20px 31px;
+        margin-bottom: 24px;
+        border: 1px solid #D6DDED;
+        align-items: center;
+}
+
+.title{
+    font-size: 66px;
+    font-weight: bold;
+}
+
+.btn{
+    background-color: #4E47FF;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 19px 201px;
+    cursor: pointer;
+    width: 120%;
+}
+
+label{
+    font-size: 18px;
+    font-weight: 700px;
+    padding: 10px;
+}
+
+input{
+    margin-bottom: 10px;
+}
+
+
+/* footer */
+
+.footer-content{
+    background-color: white;
+    text-align: center;
+    padding-bottom: 102px;
+    width: 100%;
+}
+
+footer a{
+    text-decoration: none;
+    color: #8987A1;
+    font-size: 20px ;
+    margin-right: 48px;
+}
+
+footer p{
+    color: #8987A1;
+}
+
+.logo-name{
+    color: #4E47FF;
+    font-size: 100px;
+    margin-bottom: -120px;
+    padding: 104px 455px;
+}
+
+.footer-pera{
+    margin-bottom: 20px;
+    
+}
