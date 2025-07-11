@@ -18,6 +18,14 @@
     color: #252432;
 }
 
+.text-center{
+    text-align: center;
+}
+
+.radius{
+    border-radius: 50px;
+}
+
 .btn-primary{
     background-color: #4E47FF;
     color: white;
@@ -32,6 +40,7 @@
 
 body{
     margin: 0p;
+    background-color: #f5f8ff;
 }
 
 /* Main style */
@@ -157,4 +166,84 @@ nav ul li{
     font-size: 20px;
     color: rgba(0, 0, 0, 0.5);
     
+}
+
+
+/* feedback section style */
+
+.feedback{
+    margin-top: 137px;
+}
+
+.feedback-title{
+    font-size: 42px;
+    color:#252432;
+    margin-bottom: 50px;
+}
+
+.feedback-card{
+    display: flex;
+    gap:20px;
+}
+
+.card{
+    border: 2px solid #F2EDED;
+    padding: 24px;
+    border-radius: 14px;
+    background-color: white;
+}
+
+.card-title{
+    font-size: 24px;
+    color: #1E1E1E;
+}
+
+.card-description{
+    font-size: 16px;
+    color: #1E1E1E;
+}
+
+strong{
+    color: #757575;
+}
+
+small{
+    color: #b3b3b3;
+}
+
+.review{
+    display: flex;
+    align-items: center;
+    gap:10px
+}
+
+
+/* last section style */
+
+.last{
+    background-color: white;
+    text-align: center;
+    padding: 30px 150px;
+    margin-top: 137px;
+    border: none;
+    border-radius: 14px;
+}
+
+
+
+.last-content-title{
+    font-size: 50px;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.last-content-title-des{
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.last-pic{
+    border-radius: 48px;
+    margin-top: 20px;
 }
